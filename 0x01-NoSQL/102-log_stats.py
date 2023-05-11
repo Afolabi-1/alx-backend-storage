@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-'''Task 15's module.
+'''Adetunji Afolabi
 '''
 from pymongo import MongoClient
 
 
-def print_nginx_request_logs(nginx_collection):
-    '''Prints stats about Nginx request logs.
+def prin
+    '''
     '''
     print('{} logs'.format(nginx_collection.count_documents({})))
     print('Methods:')
@@ -20,7 +20,7 @@ def print_nginx_request_logs(nginx_collection):
 
 
 def print_top_ips(server_collection):
-    '''Prints statistics about the top 10 HTTP IPs in a collection.
+    '''
     '''
     print('IPs:')
     request_logs = server_collection.aggregate(
